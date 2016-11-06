@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>typeinfoProject.pets</OriginalElement>
+  <nodes>
+    <node x="0.0" y="237.0">typeinfoProject.pets.Pug</node>
+    <node x="86.0" y="390.0">typeinfoProject.pets.PetCreator</node>
+    <node x="250.0" y="0.0">typeinfoProject.pets.Individual</node>
+    <node x="140.0" y="469.0">typeinfoProject.pets.LiteralPetCreator</node>
+    <node x="273.0" y="237.0">typeinfoProject.pets.Manx</node>
+    <node x="151.0" y="237.0">typeinfoProject.pets.EgyptianMau</node>
+    <node x="228.25" y="79.0">typeinfoProject.pets.Pet</node>
+    <node x="297.25" y="79.0">typeinfoProject.pets.Person</node>
+    <node x="431.42857142857144" y="158.0">typeinfoProject.pets.Rodent</node>
+    <node x="451.0" y="237.0">typeinfoProject.pets.Rat</node>
+    <node x="266.0" y="543.0">typeinfoProject.pets.Gerbil</node>
+    <node x="268.5" y="316.0">typeinfoProject.pets.Cymric</node>
+    <node x="374.0" y="543.0">typeinfoProject.pets.Pets</node>
+    <node x="451.0" y="390.0">typeinfoProject.pets.PetCount2</node>
+    <node x="0.0" y="543.0">typeinfoProject.pets.PetCount3</node>
+    <node x="133.0" y="543.0">typeinfoProject.pets.PetCount4</node>
+    <node x="520.0" y="237.0">typeinfoProject.pets.Mouse</node>
+    <node x="0.0" y="469.0">typeinfoProject.pets.ForNameCreator</node>
+    <node x="305.0" y="390.0">typeinfoProject.pets.TypeCounter</node>
+    <node x="73.0" y="237.0">typeinfoProject.pets.Mutt</node>
+    <node x="37.25" y="158.0">typeinfoProject.pets.Dog</node>
+    <node x="354.0" y="237.0">typeinfoProject.pets.Hamster</node>
+    <node x="222.54166666666669" y="158.0">typeinfoProject.pets.Cat</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="typeinfoProject.pets.Rodent" target="typeinfoProject.pets.Pet">
+      <point x="0.0" y="-14.5" />
+      <point x="466.42857142857144" y="133.0" />
+      <point x="269.0833333333333" y="133.0" />
+      <point x="16.333333333333314" y="14.5" />
+    </edge>
+    <edge source="typeinfoProject.pets.Pet" target="typeinfoProject.pets.Individual">
+      <point x="0.0" y="-14.5" />
+      <point x="252.75" y="54.0" />
+      <point x="271.0" y="54.0" />
+      <point x="-21.0" y="14.5" />
+    </edge>
+    <edge source="typeinfoProject.pets.Person" target="typeinfoProject.pets.Individual">
+      <point x="0.0" y="-14.5" />
+      <point x="331.25" y="54.0" />
+      <point x="313.0" y="54.0" />
+      <point x="21.0" y="14.5" />
+    </edge>
+    <edge source="typeinfoProject.pets.Manx" target="typeinfoProject.pets.Cat">
+      <point x="0.0" y="-14.5" />
+      <point x="303.5" y="212.0" />
+      <point x="260.0416666666667" y="212.0" />
+      <point x="12.5" y="14.5" />
+    </edge>
+    <edge source="typeinfoProject.pets.ForNameCreator" target="typeinfoProject.pets.PetCreator">
+      <point x="0.0" y="-14.5" />
+      <point x="60.0" y="444.0" />
+      <point x="108.0" y="444.0" />
+      <point x="-22.0" y="14.5" />
+    </edge>
+    <edge source="typeinfoProject.pets.Mouse" target="typeinfoProject.pets.Rodent">
+      <point x="0.0" y="-14.5" />
+      <point x="554.0" y="212.0" />
+      <point x="489.76190476190476" y="212.0" />
+      <point x="23.333333333333314" y="14.5" />
+    </edge>
+    <edge source="typeinfoProject.pets.EgyptianMau" target="typeinfoProject.pets.Cat">
+      <point x="0.0" y="-14.5" />
+      <point x="202.0" y="212.0" />
+      <point x="235.04166666666669" y="212.0" />
+      <point x="-12.5" y="14.5" />
+    </edge>
+    <edge source="typeinfoProject.pets.Rat" target="typeinfoProject.pets.Rodent">
+      <point x="0.0" y="-14.5" />
+      <point x="475.5" y="212.0" />
+      <point x="466.42857142857144" y="212.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="typeinfoProject.pets.Cat" target="typeinfoProject.pets.Pet">
+      <point x="0.0" y="-14.5" />
+      <point x="247.54166666666669" y="133.0" />
+      <point x="252.75" y="133.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="typeinfoProject.pets.LiteralPetCreator" target="typeinfoProject.pets.PetCreator">
+      <point x="0.0" y="-14.5" />
+      <point x="200.0" y="444.0" />
+      <point x="152.0" y="444.0" />
+      <point x="22.0" y="14.5" />
+    </edge>
+    <edge source="typeinfoProject.pets.Cymric" target="typeinfoProject.pets.Manx">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="typeinfoProject.pets.Mutt" target="typeinfoProject.pets.Dog">
+      <point x="0.0" y="-14.5" />
+      <point x="102.0" y="212.0" />
+      <point x="77.75" y="212.0" />
+      <point x="13.5" y="14.5" />
+    </edge>
+    <edge source="typeinfoProject.pets.Dog" target="typeinfoProject.pets.Pet">
+      <point x="0.0" y="-14.5" />
+      <point x="64.25" y="133.0" />
+      <point x="236.41666666666669" y="133.0" />
+      <point x="-16.333333333333343" y="14.5" />
+    </edge>
+    <edge source="typeinfoProject.pets.Hamster" target="typeinfoProject.pets.Rodent">
+      <point x="0.0" y="-14.5" />
+      <point x="392.5" y="212.0" />
+      <point x="443.09523809523813" y="212.0" />
+      <point x="-23.333333333333314" y="14.5" />
+    </edge>
+    <edge source="typeinfoProject.pets.Pug" target="typeinfoProject.pets.Dog">
+      <point x="0.0" y="-14.5" />
+      <point x="26.5" y="212.0" />
+      <point x="50.75" y="212.0" />
+      <point x="-13.5" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8952702702702703" x="294.0" y="286.0" />
+  <SelectedNodes>
+    <node>typeinfoProject.pets.Cat</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

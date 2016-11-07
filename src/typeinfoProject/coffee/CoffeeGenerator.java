@@ -38,6 +38,9 @@ public class CoffeeGenerator implements Generator<Coffee>, Iterable<Coffee> {
         return new CoffeeIterator();
     }
     public static void main(String[] args){
-
+        CoffeeGenerator generator = new CoffeeGenerator();
+        for(int i = 0; i < 5; i++){
+            System.out.println(generator.next());
+        }
     }
 }

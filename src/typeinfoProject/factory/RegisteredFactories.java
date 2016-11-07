@@ -3,6 +3,8 @@ package typeinfoProject.factory;
 /**
  * Created by anonymous on 11/7/2016.
  */
+import typeinfoProject.coffee.Generator;
+
 import java.util.*;
 
 class Part{
@@ -10,6 +12,10 @@ class Part{
         return this.getClass().getSimpleName();
     }
     static List<Factory<? extends Part>> partFactories = new ArrayList<Factory<? extends Part>>();
+    static{
+        partFactories.add(new AirFilter.Factory());
+        partFactories.add(new FuelFilter.Factory)
+    }
 
 }
 class Filter extends Part{}
@@ -20,12 +26,48 @@ class AirFilter extends Filter{
         }
     }
 }
-class FuelFilter extends Filter{}
-class CabinAirFilter extends Filter{}
-class OilFilter extends Filter{}
+class FuelFilter extends Filter{
+    public static class Factory implements typeinfoProject.factory.Factory{
+        public FuelFilter create(){
+            return new FuelFilter();
+        }
+    }
+}
+class CabinAirFilter extends Filter{
+    public static class Factory implements typeinfoProject.factory.Factory{
+        public CabinAirFilter create(){
+            return new CabinAirFilter();
+        }
+    }
+}
+class OilFilter extends Filter{
+    public static class Factory implements typeinfoProject.factory.Factory{
+        public OilFilter create(){
+            return new OilFilter();
+        }
+    }
+}
 class Belt extends Part{}
-class FanBelt extends Belt{}
-class GeneratorBelt extends Belt{}
-class PowerSteeringBelt extends Belt{}
+class FanBelt extends Belt{
+    public static class Factory implements typeinfoProject.factory.Factory{
+        public FanBelt create(){
+            return new FanBelt();
+        }
+    }
+}
+class GeneratorBelt extends Belt{
+    public static class Factory implements typeinfoProject.factory.Factory{
+        public GeneratorBelt create(){
+            return new GeneratorBelt();
+        }
+    }
+}
+class PowerSteeringBelt extends Belt{
+    public static class Factory implements typeinfoProject.factory.Factory{
+        public PowerSteeringBelt create(){
+            return new PowerSteeringBelt();
+        }
+    }
+}
 public class RegisteredFactories {
 }

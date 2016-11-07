@@ -13,7 +13,13 @@ class Part{
 
 }
 class Filter extends Part{}
-class AirFilter extends Filter{}
+class AirFilter extends Filter{
+    public static class Factory implements typeinfoProject.factory.Factory<AirFilter>{
+        public AirFilter create(){
+            return new AirFilter();
+        }
+    }
+}
 class FuelFilter extends Filter{}
 class CabinAirFilter extends Filter{}
 class OilFilter extends Filter{}
